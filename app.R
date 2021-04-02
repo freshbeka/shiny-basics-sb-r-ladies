@@ -10,7 +10,7 @@ spooky <- read_csv("spooky_data.csv")
 
 ui <- fluidPage(
   theme = shinytheme("slate"),
-  titlePanel("I am adding a title!"),
+  titlePanel("Spooky"),
   sidebarLayout(
     sidebarPanel("put my widgets here",
                  selectInput(inputId = "state_select",
